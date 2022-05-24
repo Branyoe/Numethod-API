@@ -8,6 +8,6 @@ from src.utils import verifyRequest
 # definición de blueprint para los metodos de raices
 integralsMethods = Blueprint('integralsMethods', __name__)
 
-@integralsMethods.route('definiteIntegral', methods=['POST'])
+@integralsMethods.route('definite-integral', methods=['POST'])
 def definiteIntegralMethod():
   return definiteIntegral(request.json)

@@ -14,8 +14,10 @@ def createApp():
 
     from .interpolationRoutes import operations
     from .rootsMethods.rootsMethodsRoutes import rootsMethods
+    from .integralsMethods.integralsMethodsRoutes import integralsMethods
 
     app.register_blueprint(operations, url_prefix=('/api/'))
     app.register_blueprint(rootsMethods, url_prefix=('/api/rootsMethods/'))
+    app.register_blueprint(integralsMethods, url_prefix=('/api/integralsMethods/'))
     return app
     
