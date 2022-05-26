@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "66e677156a9a27fa0288592976266766ec77d03aed348b98c11d1385b66f6dba"
+            "sha256": "9493edcaab978588433046aeff4b4f103bba8d1eff36da565f16c0d95d1db8bc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -118,6 +118,13 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.1.1"
         },
+        "mpmath": {
+            "hashes": [
+                "sha256:604bc21bd22d2322a177c73bdb573994ef76e62edd595d17e00aff24b0667e5c",
+                "sha256:79ffb45cf9f4b101a807595bcb3e72e0396202e0b1d25d689134b48c4216a81a"
+            ],
+            "version": "==1.2.1"
+        },
         "setuptools": {
             "hashes": [
                 "sha256:68e45d17c9281ba25dc0104eadd2647172b3472d9e01f911efa57965e8d51a36",
@@ -133,6 +140,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
+        },
+        "sympy": {
+            "hashes": [
+                "sha256:5939eeffdf9e152172601463626c022a2c27e75cf6278de8d401d50c9d58787b",
+                "sha256:df75d738930f6fe9ebe7034e59d56698f29e85f443f743e51e47df0caccc2130"
+            ],
+            "index": "pypi",
+            "version": "==1.10.1"
         },
         "werkzeug": {
             "hashes": [

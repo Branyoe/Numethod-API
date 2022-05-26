@@ -10,4 +10,4 @@ integralsMethods = Blueprint('integralsMethods', __name__)
 
 @integralsMethods.route('definite-integral', methods=['POST'])
 def definiteIntegralMethod():
-  return definiteIntegral(request.json)
+  return jsonify(definiteIntegral(**request.json))
